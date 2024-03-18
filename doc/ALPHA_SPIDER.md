@@ -24,3 +24,17 @@ Next step usually is to loock for [Veeam credentials](https://github.com/horizon
 Looking for logs in *Terminal Services LocalSessionManager/Operational*
 
 ## Hiding persistance
+
+In NFTS, Alternate data streams (ADS) allow more than one data stream to be associated with a filename (a fork), using the format "filename:streamname".
+
+They modified the operating system local name resolution conf *C:\Windows\System32\Drivers\etc\hosts* and they introduce mega[.]nz and .io 
+
+> By default, Duo Authentication for Windows Logon will ‘fail open’ and permit the Windows logon to continue if it is unable to contact the Duo service
+
+So they modified the hosts file to desacrivate de MFA ans single sing-on.
+
+## Exfiltration
+
+They tray [Rclone](https://rclone.org/) and Filezilla (https://filezilla-project.org/) and finally Mega.
+
+
