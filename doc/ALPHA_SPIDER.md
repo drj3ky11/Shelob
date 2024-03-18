@@ -35,6 +35,19 @@ So they modified the hosts file to desacrivate de MFA ans single sing-on.
 
 ## Exfiltration
 
-They tray [Rclone](https://rclone.org/) and Filezilla (https://filezilla-project.org/) and finally Mega.
+They tray [Rclone](https://rclone.org/) and [Filezilla](https://filezilla-project.org/) and finally Mega.
+
+## More...
+An other [report](https://www.sygnia.co/blog/blackcat-ransomware/) using SMB and RDP to gain access.
+
+After an unsuccessful code execution attempt:
+
+> The threat actor created the ‘C:\Intel\45.ps1’ file on the pivot-server, and executed it using PowerShell with the command line:
+
+C:\ Windows\System32\WindowsPowerShell\v1.0\powershell.exe -nop -w hidden -c .\45.ps1
+
+The execution resulted in the injection of a malicious code into the legitimate ‘drfgui.exe’ process. The process contacted, over HTTPS, a Cobalt Strike Command and Control (C2) server hosted on ‘bellebobas[.]com’, which resolved to a Cloudflare CDN at IP address 172.67.152[.]173. This is a known technique that is used to evade detection, and hamper remediation efforts.
+
+
 
 
