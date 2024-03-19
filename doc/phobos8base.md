@@ -34,4 +34,6 @@ The 8base ransomware checks for file size, with a target set at 1.5MB. The ranso
 
 
 Once in the victim server, they created a working directory and try to deploy some of the next tools:
-- [Process Hacker](https://processhacker.sourceforge.io/) and
+- [Process Hacker](https://processhacker.sourceforge.io/) and [this](https://github.com/PKRoma/ProcessHacker) *A free, powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.*
+- [LaZagne](https://github.com/AlessandroZ/LaZagne) *open source application used to retrieve lots of passwords stored on a local computer* it could be used inside [Automim suit](https://www.crowdstrike.com/blog/how-to-test-endpoint-security-with-red-teaming/) with Mimikatz.
+- [IObit](https://www.iobit.com/en/iobit-unlocker.php) to unloock files
