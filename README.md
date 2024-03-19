@@ -1,5 +1,5 @@
 # Shelob
-A repo to dominate them all...
+A repo to dominate them all... UNDER CONSTRUCTION!!
 
 
 Compilation of some interesting posts about malware. 
@@ -13,3 +13,6 @@ What does this repository provide? Well, just like Shelob's networks and tunnels
 
 - [ALPHV-Blackcat](/doc/ALPHV-Blackcat.md)
 - [Phobos](/doc/phobos8base.md)
+
+### Others...
+- [RustRedOps](https://github.com/joaoviictorti/RustRedOps) *Red Team operations, developed in Rust*
