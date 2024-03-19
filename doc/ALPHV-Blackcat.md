@@ -1,6 +1,7 @@
 [Source](https://www.crowdstrike.com/blog/anatomy-of-alpha-spider-ransomware/)
 
 Developer of Alphv ransom
+
 Written in Rust
 
 > The events described in this blog have been attributed to ALPHA SPIDER affiliates by CrowdStrike Counter Adversary Operations
